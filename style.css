@@ -1,0 +1,134 @@
+body {
+  background-image: url('backg.png');
+  background-size: cover;
+  background-size: clamp(900px, 100vw, 3840px);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+
+#jellies {
+width: clamp(1px, 45vw, 400px);
+position: relative;
+top: clamp(1px, 40vw, 250px);
+left: 5vw;
+box-shadow: 10px 5px 10px black;
+ animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+    cursor: pointer;
+}
+
+#screenwalk {
+width: clamp(1px, 45vw, 400px);
+position: relative;
+top: clamp(1px, 52vw, 350px);
+left: 35vw;
+box-shadow: 10px 5px 10px black;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+    cursor: pointer;
+}
+
+#trans {
+width: clamp(1px, 45vw, 400px);
+position: relative;
+top: clamp(1px, 60vw, 470px);
+left: 15vw;
+box-shadow: 10px 5px 10px black;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+    cursor: pointer;
+}
+
+#club {
+width: clamp(1px, 45vw, 400px);
+position: relative;
+top: clamp(1px, 70vw, 550px);
+left: 20vw;
+box-shadow: 10px 5px 10px black;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
+    cursor: pointer;
+}
+
+#bts {
+width: clamp(1px, 45vw, 400px);
+position: relative;
+top: clamp(1px, 77vw, 600px);
+left: 45vw;
+box-shadow: 10px 5px 10px black;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+    cursor: pointer;
+}
+
+#artfight {
+width: clamp(1px, 45vw, 400px);
+position: relative;
+top: clamp(1px, 82vw, 700px);
+left: 5vw;
+box-shadow: 10px 5px 10px black;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 18s;
+    cursor: pointer;
+}
+
+
+.locationspeech {
+width: clamp(270px, 30vw, 3840px);
+position: relative;
+top: 5vw;
+left: clamp(1px, 22vw, 5000px);
+}
+
+.locationbutt {
+width: clamp(150px, 15vw, 3840px);
+position: relative;
+top: 190px;
+left: -5vw;
+ border: none;
+  color: black;
+  background-color: white;
+  opacity: 0.9;
+  padding: 10px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: clamp(14px, 2vw, 20px);
+  font-family: cursive;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+  box-shadow: 10px 5px 10px black;
+}
+
+.hide{
+  display: none;
+}
+
+.none{
+  opacity: 0;
+}
+
+@keyframes shake {
+  0% { transform:  rotate(0deg); }
+  1% { transform:  rotate(-4deg); }
+  2% { transform:  rotate(2deg); }
+  3% { transform:  rotate(-2deg); }
+  4% { transform:  rotate(4deg); }
+  5% { transform:  rotate(-2deg); }
+  6% { transform:  rotate(0deg); }
+  100% { transform:  rotate(0deg); }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <title>Kopfkino</title>
+</head>
+<body>
+
+    <img src="speech1.png" id="speech1" alt="speech bubble" class="locationspeech">
+    <img src="speech2.png" id="speech2" alt="speech bubble" class="hide locationspeech">
+    <img src="speech3.png" id="speech3" alt="speech bubble" class="hide locationspeech">
+    <img src="speech4.png" id="speech4" alt="speech bubble" class="hide locationspeech">
+    <img src="speech5.png" id="speech5" alt="speech bubble" class="hide locationspeech">
+    <img src="speech6.png" id="speech6" alt="speech bubble" class="hide locationspeech">
+    <img src="speech7.png" id="speech7" alt="speech bubble" class="hide locationspeech">
+    <img src="speech8.png" id="speech8" alt="speech bubble" class="hide locationspeech">
+    <img src="speech9.png" id="speech9" alt="speech bubble" class="hide locationspeech">
+
+  
+
+    <button type="button" id="butt1" class="locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech1); hide(speech2); hide(butt1); hide(butt2) 
+    appear(jellies); appear(artfight); appear(bts); appear(club); appear(screenwalk); appear(trans);"
+    >Nein, noch nicht.</button>
+    <button type="button" id="butt2" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech2); hide(speech3); hide(butt2); hide(butt3); gone(butt9)" >Was sind das für Filme?</button>
+    <button type="button" id="butt3" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech3); hide(speech4); hide(butt3); hide(butt4); gone(butt9)" >Wirklich?</button>
+    <button type="button" id="butt4" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech4); hide(speech5); hide(butt4); hide(butt5); gone(butt9)" >Das ist ja komisch.</button>
+    <button type="button" id="butt5" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech5); hide(speech6); hide(butt5); hide(butt6); gone(butt9)" >Meinst du an der Kunsthochschule?</button>
+    <button type="button" id="butt6" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech6); hide(speech7); hide(butt6); hide(butt7); gone(butt9)" >Dann bist du wohl berühmt!</button>
+    <button type="button" id="butt7" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech7); hide(speech8); hide(butt7); hide(butt8); gone(butt9)" >Ist mir noch nicht aufgefallen.</button>
+    <button type="button" id="butt8" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech8); hide(speech2); hide(butt8); hide(butt2); gone(butt9)" >Lass mich nochmal über die Auswahl schauen...</button>
+    <button type="button" id="butt9" class="hide locationbutt" onmouseover="big(this)" onmouseout="small(this)" onclick="hide(speech9); hide(speech2); hide(butt2); gone(butt9)" >Schade.</button>
+
+
+
+
+<br>
+
+   <img src="Jellies ticket.png" id="jellies" alt="Jellies Movie Ticket" class="none"
+   onmouseover="big(this)" onmouseout="small(this)" onclick="spin(this); here(speech9); here(butt9);
+    gone(speech1); gone(speech2); gone(speech3); gone(speech4); gone(speech5); gone(speech6); gone(speech7); gone(speech8);
+     gone(butt1); gone(butt2); gone(butt3); gone(butt4); gone(butt5); gone(butt6); gone(butt7); gone(butt8)">
+
+<br>
+
+  <a href="https://youtu.be/SDvHPgdmVQg?si=hxq-6i5FvCQJc27B" target="_blank">
+    <img src="Screenwalk ticket.png" id="screenwalk" alt="Screenwalk Movie Ticket" class="none"
+    onmouseover="big(this)" onmouseout="small(this)" onclick="spin(this)">
+  </a>
+
+<br>
+
+  <a href="https://youtu.be/3V3Ht03aLlI?si=aIAFLN6hPATwLN2n" target="_blank">
+    <img src="Trans Furries ticket.png" id="trans" alt="Trans Furries Movie Ticket" class="none"
+    onmouseover="big(this)" onmouseout="small(this)" onclick="spin(this)">
+  </a>
+
+<br>
+
+  <a href="https://sunnythesillygoose.github.io/Extinction-Club/" target="_blank">
+    <img src="Exctinction Club ticket.png" id="club" alt="Extinction Club Movie Ticket" class="none"
+    onmouseover="big(this)" onmouseout="small(this)" onclick="spin(this)">
+  </a>
+
+<br>
+
+  <a href="https://youtu.be/6YW7DUE5CNs" target="_blank">
+    <img src="BTS Ticket.png" id="bts" alt="Behind the Scenes of Extinction Club Movie Ticket" class="none"
+    onmouseover="big(this)" onmouseout="small(this)" onclick="spin(this)">
+  </a>
+
+<br>
+
+ <a href="https://youtu.be/WR5b-p8o2As?si=i5LA786Kb7wZCz8z" target="_blank">   
+   <img src="Artfight 101 ticket.png" id="artfight" alt="Artfight 101 Movie Ticket" class="none"
+   onmouseover="big(this)" onmouseout="small(this)" onclick="spin(this)">
+  </a>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
