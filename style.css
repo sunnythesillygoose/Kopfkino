@@ -8,7 +8,7 @@ body {
 
 
 #jellies {
-width: clamp(1px, 45vw, 400px);
+width: clamp(200px, 45vw, 400px);
 position: relative;
 top: clamp(1px, 45vw, 320px);
 left: 5vw;
@@ -21,7 +21,7 @@ box-shadow: 10px 5px 10px black;
 }
 
 #screenwalk {
-width: clamp(1px, 45vw, 400px);
+width: clamp(200px, 45vw, 400px);
 position: relative;
 top: clamp(1px, 52vw, 350px);
 left: 35vw;
@@ -34,7 +34,7 @@ box-shadow: 10px 5px 10px black;
 }
 
 #trans {
-width: clamp(1px, 45vw, 400px);
+width: clamp(200px, 45vw, 400px);
 position: relative;
 top: clamp(1px, 60vw, 470px);
 left: 15vw;
@@ -47,7 +47,7 @@ box-shadow: 10px 5px 10px black;
 }
 
 #club {
-width: clamp(1px, 45vw, 400px);
+width: clamp(200px, 45vw, 400px);
 position: relative;
 top: clamp(1px, 70vw, 550px);
 left: 20vw;
@@ -60,7 +60,7 @@ box-shadow: 10px 5px 10px black;
 }
 
 #bts {
-width: clamp(1px, 45vw, 400px);
+width: clamp(200px, 45vw, 400px);
 position: relative;
 top: clamp(1px, 77vw, 600px);
 left: 45vw;
@@ -73,7 +73,7 @@ box-shadow: 10px 5px 10px black;
 }
 
 #artfight {
-width: clamp(1px, 45vw, 400px);
+width: clamp(200px, 45vw, 400px);
 position: relative;
 top: clamp(1px, 82vw, 700px);
 left: 5vw;
