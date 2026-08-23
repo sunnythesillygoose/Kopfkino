@@ -10,7 +10,7 @@ body {
 #jellies {
 width: clamp(1px, 45vw, 400px);
 position: relative;
-top: clamp(1px, 40vw, 250px);
+top: clamp(1px, 45vw, 320px);
 left: 5vw;
 box-shadow: 10px 5px 10px black;
  animation: shake;
@@ -96,8 +96,8 @@ left: clamp(1px, 22vw, 5000px);
 .locationbutt {
 width: clamp(150px, 15vw, 3840px);
 position: relative;
-top: 190px;
-left: -5vw;
+top: 170px;
+left: 0vw;
  border: none;
   color: black;
   background-color: white;
