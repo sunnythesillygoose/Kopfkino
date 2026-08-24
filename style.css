@@ -10,7 +10,7 @@ body {
 #jellies {
 width: clamp(250px, 45vw, 400px);
 position: relative;
-top: clamp(1px, 45vw, 400px);
+top: clamp(1px, 45vw, 350px);
 left: 5vw;
 box-shadow: 10px 5px 10px black;
  animation: shake;
