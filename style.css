@@ -89,7 +89,7 @@ box-shadow: 10px 5px 10px black;
 width: clamp(250px, 45vw, 400px);
 position: relative;
 top: clamp(1px, 90vw, 750px);
-left: 5vw;
+left: 32vw;
 box-shadow: 10px 5px 10px black;
   animation: shake;
   animation-duration: 20s;
